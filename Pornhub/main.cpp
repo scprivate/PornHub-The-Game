@@ -1,5 +1,9 @@
 #include <iostream>
+#include <windows.h>
+#include <stdlib.h>
 #include <cstdlib>
+#include <time.h>
+#include <stdio.h>
 #include <conio.h>
 
 using namespace std;
@@ -34,9 +38,10 @@ std::string PL( const char * text )
 }
 void intro()
 {
-    sleep("5000");
-    cout<<endl<<endl<<"DramaMaker Studio";
-    cout<<"PornHub The Game";
+    cout<<endl<<"DramaMaker Studio przedstawia: "<<endl<<endl;
+    cout<<"          PornHub The Game";
+    Sleep(3000);
+    system("cls");
 }
 
 void menu()
@@ -149,9 +154,9 @@ void wyborpostaci()
 
 int main()
 {
+              intro();//intro
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
-              intro();//intro
     return 0;
 }
 
