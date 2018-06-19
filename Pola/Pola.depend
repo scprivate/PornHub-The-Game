@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1492681920 source:d:\program files (x86)\aha\pola\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
+1493057496 source:d:\program files (x86)\projekts c++\pola\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
+1493057498 source:c:\users\michal\desktop\pliks\eksdee++\pola\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
