@@ -7,8 +7,12 @@
 	<cstdlib>
 	<conio.h>
 
-1529447450 source:c:\users\admin\documents\github\pornhub-the-game\pornhub\main.cpp
+1529448640 source:c:\users\admin\documents\github\pornhub-the-game\pornhub\main.cpp
 	<iostream>
+	<windows.h>
+	<stdlib.h>
 	<cstdlib>
+	<time.h>
+	<stdio.h>
 	<conio.h>
 

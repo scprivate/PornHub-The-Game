@@ -5,6 +5,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <conio.h>
+#include <curses.h>
 
 using namespace std;
 //-----------
@@ -38,9 +39,10 @@ std::string PL( const char * text )
 }
 void intro()
 {
-    cout<<endl<<"DramaMaker Studio przedstawia: "<<endl<<endl;
-    cout<<"          PornHub The Game";
-    Sleep(3000);
+    cout<<endl<<"DramaMaker Studio przedstawia: "<<endl;
+    cout<<"PornHub The Game"<<endl<<endl;
+    cout<<endl<<endl<<"Kliknij dowolny klawisz.";
+    getch();
     system("cls");
 }
 

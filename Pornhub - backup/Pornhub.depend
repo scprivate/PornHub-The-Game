@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1529436543 source:c:\users\admin\desktop\codeblocks\pornhub\main.cpp
+	<iostream>
+
+1529444542 source:c:\users\michal\documents\github\pornhub-the-game\pornhub\main.cpp
+	<iostream>
+	<cstdlib>
+	<conio.h>
+
+1529448640 source:c:\users\admin\documents\github\pornhub-the-game\pornhub\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
