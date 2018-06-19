@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1526336240 source:e:\codeblocks\jd\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
