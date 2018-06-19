@@ -32,17 +32,22 @@ std::string PL( const char * text )
     }
     return result;
 }
-//-------
+void intro()
+{
+    sleep("5000");
+    cout<<endl<<endl<<"DramaMaker Studio";
+    cout<<"PornHub The Game";
+}
+
 void menu()
 {
-    cout <<endl<< "Witaj w grze Pornhub The Game" << endl<<endl;
     cout << PL("Kim chcesz zagraæ?")<< endl;
     cout << "----------------"<<endl;
     cout << "1. Gorzki"<<endl;
     cout << "2. Martyna"<<endl;
     cout << "3. Filip"<<endl;
     cout << "4. Marta"<<endl;
-    cout << "5. Michal"<<endl;
+    cout << PL("5. Micha³")<<endl;
     cout << "6. Puma" <<endl;
     cout << "7. Patryk"<< endl;
     cout << "8. Ala"<<endl;
@@ -51,7 +56,8 @@ void menu()
     cout << "11. Ryba"<<endl;
     cout << "12. Krzysiek"<<endl;
     cout << "----------------";
-    cout<< endl<<"Wybierz postac: ";
+    cout<< endl<<PL("Wybierz postaæ: ");
+
 }
 void wyborpostaci()
 {
@@ -70,7 +76,7 @@ void wyborpostaci()
               case 2://martyna
                      {
                      system("cls");
-                     cout<<endl<<PL("Grasz Martyn¹.");
+                     cout<<endl<<PL("Grasz Wark¹.");
                      break;
                      }
 
@@ -78,7 +84,7 @@ void wyborpostaci()
               case 3://mendzioch
                      {
                      system("cls");
-                     cout<<endl<<"Grasz Mendom.";
+                     cout<<endl<<PL("Grasz hipokryt¹.");
                      break;
                      }
 
@@ -86,13 +92,13 @@ void wyborpostaci()
               case 4://martaska
                      {
                      system("cls");
-                     cout<<endl<<"Grasz Martom.";
+                     cout<<endl<<PL("Grasz amatork¹.");
                      break;
                      }
               case 5://Michal
                 {
                     system("cls");
-                    cout<<endl<<PL("Grasz Miha³kiem.");
+                    cout<<endl<<PL("Grasz programist¹.");
                     break;
                 }
              case 6://Puma
@@ -107,10 +113,34 @@ void wyborpostaci()
                     cout<<endl<<"Grasz informatykiem.";
                     break;
                 }
-                case 8;
+            case 8://Ala
                 {
                     system("cls");
-                    cout<<endl<<"Grasz";
+                    cout<<endl<<PL("Grasz pani¹ siln¹ i niezale¿n¹.");
+                    break;
+                }
+            case 9://Laura
+                    {
+                        system("cls");
+                        cout<<endl<<PL("Grasz ¿on¹ Admina.");
+                        break;
+                    }
+            case 10://Buba
+                {
+                    system("cls");
+                    cout<<endl<<"Grasz ukraincem.";
+                    break;
+                }
+            case 11://Ryba
+                {
+                    system("cls");
+                    cout<<endl<<"Grasz kibolem.";
+                    break;
+                }
+            case 12://Krzysiek
+                {
+                    system("cls");
+                    cout<<endl<<"Grasz Villagerem";
                     break;
                 }
 
@@ -121,6 +151,7 @@ int main()
 {
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
-
+              intro();//intro
     return 0;
 }
+
