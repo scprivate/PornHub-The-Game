@@ -51,14 +51,15 @@ void menu()
     cout << "11. Ryba"<<endl;
     cout << "12. Krzysiek"<<endl;
     cout << "----------------";
+    cout<< endl<<"Wybierz postac: ";
 }
 void wyborpostaci()
 {
               int wyborpost;
-              wyborpost = getch();
+              cin >> wyborpost;
               switch(wyborpost)
               {
-              case'1': //Gorzki
+              case 1: //Gorzki
                      {
                      system("cls");
                      cout<<endl<<"Grasz ekonomem.";
@@ -66,7 +67,7 @@ void wyborpostaci()
                      }
 
 
-              case'2'://martyna
+              case 2://martyna
                      {
                      system("cls");
                      cout<<endl<<PL("Grasz Martyn¹.");
@@ -74,7 +75,7 @@ void wyborpostaci()
                      }
 
 
-              case'3'://mendzioch
+              case 3://mendzioch
                      {
                      system("cls");
                      cout<<endl<<"Grasz Mendom.";
@@ -82,19 +83,19 @@ void wyborpostaci()
                      }
 
 
-              case'4'://martaska
+              case 4://martaska
                      {
                      system("cls");
                      cout<<endl<<"Grasz Martom.";
                      break;
                      }
-              case '5'://Michal
+              case 5://Michal
                 {
                     system("cls");
                     cout<<endl<<"Grasz Mihalkiem.";
                     break;
                 }
-             case '6'://Puma
+             case 6://Puma
                  {
                      system("cls");
                      cout<<endl<<"Grasz marka plecakow.";
