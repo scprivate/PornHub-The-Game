@@ -92,15 +92,27 @@ void wyborpostaci()
               case 5://Michal
                 {
                     system("cls");
-                    cout<<endl<<"Grasz Mihalkiem.";
+                    cout<<endl<<PL("Grasz Miha³kiem.");
                     break;
                 }
              case 6://Puma
                  {
                      system("cls");
-                     cout<<endl<<"Grasz marka plecakow.";
+                     cout<<endl<<PL("Grasz mark¹ plecaków.");
                      break;
                  }
+             case 7://Patryk
+                {
+                    system("cls");
+                    cout<<endl<<"Grasz informatykiem.";
+                    break;
+                }
+                case 8;
+                {
+                    system("cls");
+                    cout<<endl<<"Grasz";
+                    break;
+                }
 
        }
 }
