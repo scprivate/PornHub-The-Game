@@ -7,6 +7,7 @@
 #include <conio.h>
 #include <curses.h>
 
+
 using namespace std;
 //-----------
 std::string PL( const char * text )
@@ -40,7 +41,17 @@ std::string PL( const char * text )
 void intro()
 {
     cout<<endl<<"DramaMaker Studio przedstawia: "<<endl;
-    cout<<"PornHub The Game"<<endl<<endl;
+    initscr(); //start
+    keypad( stdscr, TRUE ); //1
+    printw( "Znak w grubej czcionce:\n\n" ); //tekst
+    noecho(); // 2
+    int litera = getch(); //pobieranie znaku do zmiennej
+    printw( "Wcisniety znak to:" ); //wyswietlanie tekstu
+    attron( A_BOLD ); //3
+    printw( "%d", litera ); //4
+    getch(); //czekanie na naciœniêcie
+    endwin(); //koñczenie
+    return 0;
     cout<<endl<<endl<<"Kliknij dowolny klawisz.";
     getch();
     system("cls");
