@@ -430,15 +430,14 @@ int i=1;
               case 1: //Gorzki
                      {
                      system("cls");
-                     cout<<endl<<"Wybra³eœ ekonoma.";czk();
-
+                     cout<<endl<<PL("Wybra³eœ ekonoma.");czk();
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
-                     cout<<"30/60";czk();
+                     cout<<"25/60";czk();
                      SetConsoleTextAttribute(kolor, 8);
                      cout<<endl<<"Ekwipunek: ";czk();
                      SetConsoleTextAttribute(kolor, 11);
-                     cout<<"Okulary,"<<endl;czk();//dokoñczyæ
+                     cout<<"Okulary, Fidget Spinner"<<endl;czk();//dokoñczyæ
                      SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
                      int napwn;
@@ -469,11 +468,11 @@ int i=1;
                      cout<<endl<<PL("Wybra³eœ Warkê.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
-                     cout<<"25/60";czk();
+                     cout<<"30/60";czk();
                      SetConsoleTextAttribute(kolor, 8);
                      cout<<endl<<"Ekwipunek: ";czk();
                      SetConsoleTextAttribute(kolor, 11);
-                     cout<<"Manga, Okulary,"<<endl;
+                     cout<<"Manga, Okulary"<<endl;
                      SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
                      int napwn;
@@ -498,6 +497,14 @@ int i=1;
                      {
                      system("cls");
                      cout<<endl<<PL("Wybra³eœ hipokrytê.");
+                     cout<<endl<<"Charyzma: ";czk();
+                     SetConsoleTextAttribute(kolor, 12);
+                     cout<<"50/60";czk();
+                     SetConsoleTextAttribute(kolor, 8);
+                     cout<<endl<<"Ekwipunek: ";czk();
+                     SetConsoleTextAttribute(kolor, 11);
+                     cout<<PL("VapeRura, Paczka szloogów, Zapalniczka")<<endl;czk();//dokoñczyæ
+                     SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -525,6 +532,14 @@ int i=1;
                      {
                      system("cls");
                      cout<<endl<<PL("Wybra³eœ amatorkê.");
+                     cout<<endl<<"Charyzma: ";czk();
+                     SetConsoleTextAttribute(kolor, 12);
+                     cout<<"45/60";czk();
+                     SetConsoleTextAttribute(kolor, 8);
+                     cout<<endl<<"Ekwipunek: ";czk();
+                     SetConsoleTextAttribute(kolor, 11);
+                     cout<<PL("Papug Hodor, Czapka z Monstera, P³yta Sabatonu ")<<endl;czk();
+                     SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -549,7 +564,15 @@ int i=1;
               case 5://Michal
                 {
                     system("cls");
-                    cout<<endl<<PL("Wybra³eœ p³og³amiste.");
+                    cout<<endl<<PL("Wybra³eœ programiste.");
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"25/60";czk();
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("P³ytka Gothica z crackiem, nó¿")<<endl;czk();
+                     SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -575,6 +598,14 @@ int i=1;
                  {
                      system("cls");
                      cout<<endl<<PL("Wybra³eœ markê plecaków.");
+                     cout<<endl<<"Charyzma: ";czk();
+                     SetConsoleTextAttribute(kolor, 12);
+                     cout<<"50/60";czk();
+                     SetConsoleTextAttribute(kolor, 8);
+                     cout<<endl<<"Ekwipunek: ";czk();
+                     SetConsoleTextAttribute(kolor, 11);
+                     cout<<PL("Dowodzik, Stary Epapieros, Sprawne Korki")<<endl;czk();
+                     SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -600,6 +631,14 @@ int i=1;
                 {
                     system("cls");
                     cout<<endl<<"Wybra³eœ informatyka.";
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"30/60";czk();
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("Klucze do domu, Dowodzik")<<endl;czk();
+                    SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -625,6 +664,14 @@ int i=1;
                 {
                     system("cls");
                     cout<<endl<<PL("Wybra³eœ pani¹ siln¹ i niezale¿n¹.");
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"25/60";czk();
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("Torebka, Kalkulator, Klucze do domu, Okulary")<<endl;czk();
+                    SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -650,6 +697,14 @@ int i=1;
                     {
                         system("cls");
                         cout<<endl<<PL("Wybra³eœ ¿onê Admina.");
+                        cout<<endl<<"Charyzma: ";czk();
+                        SetConsoleTextAttribute(kolor, 12);
+                        cout<<"35/60";czk();
+                        SetConsoleTextAttribute(kolor, 8);
+                        cout<<endl<<"Ekwipunek: ";czk();
+                        SetConsoleTextAttribute(kolor, 11);
+                        cout<<PL("Torebka, szminka")<<endl;czk();
+                        SetConsoleTextAttribute(kolor, 8);
                         system("PAUSE");
                         int napwn;
                             system("cls");
@@ -674,7 +729,15 @@ int i=1;
             case 10://Buba
                 {
                     system("cls");
-                    cout<<endl<<"Wybra³eœ ukraiñca.";
+                    cout<<endl<<"Wyb³a³eœ uk³aiñca.";
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"60/60";czk();//odj¹æ póŸniej w dialogach 40 za seplenienie i 10 za bycie ukraincem
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("Miecz za 300z³, Bumae³ang, Medalion Wiedzmiñski")<<endl;czk();
+                    SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -700,6 +763,14 @@ int i=1;
                 {
                     system("cls");
                     cout<<endl<<"Wybra³eœ kibola.";
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"35/60";czk();
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("Okulary, Wlepy Jezioraka")<<endl;czk();
+                    SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -725,6 +796,14 @@ int i=1;
                 {
                     system("cls");
                     cout<<endl<<"Wybra³eœ Villagera";
+                    cout<<endl<<"Charyzma: ";czk();
+                    SetConsoleTextAttribute(kolor, 12);
+                    cout<<"25/60";czk();
+                    SetConsoleTextAttribute(kolor, 8);
+                    cout<<endl<<"Ekwipunek: ";czk();
+                    SetConsoleTextAttribute(kolor, 11);
+                    cout<<PL("Okulary, Rower z komunii, Zasilacz")<<endl;czk();
+                    SetConsoleTextAttribute(kolor, 8);
                     system("PAUSE");
                     int napwn;
                             system("cls");
