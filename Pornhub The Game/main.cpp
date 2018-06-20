@@ -47,7 +47,7 @@ void losowanie()
 
 void intro()
 {
-   HANDLE kolor;
+    HANDLE kolor;
     kolor=GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(kolor, 8);
     cout.width(59);

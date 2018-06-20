@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1529503015 source:e:\codeblocks\teaws\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
