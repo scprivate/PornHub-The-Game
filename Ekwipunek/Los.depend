@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1529513601 source:e:\codeblocks\los\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+
