@@ -288,7 +288,8 @@ void menu()
        i++;
        }
        SetConsoleTextAttribute(kolor, 12);
-       cout<<"PORNHUB THE GAME";
+       cout<<"P";Sleep(10);cout<<"O";Sleep(10);cout<<"R";Sleep(10);cout<<"N";Sleep(10);cout<<"H";Sleep(10);cout<<"U";Sleep(10);cout<<"B";Sleep(10);cout<<" ";Sleep(10);cout<<"T";Sleep(10);
+       cout<<"H";Sleep(10);cout<<"E";Sleep(10);cout<<" ";Sleep(10);cout<<"G";Sleep(10);cout<<"A";Sleep(10);cout<<"M";Sleep(10);cout<<"E";
        SetConsoleTextAttribute(kolor, 8);
        while(b<=32)
        {
@@ -372,7 +373,8 @@ int i=1;
        i++;
        }
        SetConsoleTextAttribute(kolor, 12);
-       cout<<"PORNHUB THE GAME";
+       cout<<"P";Sleep(10);cout<<"O";Sleep(10);cout<<"R";Sleep(10);cout<<"N";Sleep(10);cout<<"H";Sleep(10);cout<<"U";Sleep(10);cout<<"B";Sleep(10);cout<<" ";Sleep(10);cout<<"T";Sleep(10);
+       cout<<"H";Sleep(10);cout<<"E";Sleep(10);cout<<" ";Sleep(10);cout<<"G";Sleep(10);cout<<"A";Sleep(10);cout<<"M";Sleep(10);cout<<"E";
        SetConsoleTextAttribute(kolor, 8);
        while(b<=32)
        {
@@ -428,7 +430,7 @@ int i=1;
               case 1: //Gorzki
                      {
                      system("cls");
-                     cout<<endl<<"Grasz ekonomem.";czk();
+                     cout<<endl<<"Wybra³eœ ekonoma.";czk();
 
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -464,7 +466,7 @@ int i=1;
               case 2://martyna
                      {
                      system("cls");
-                     cout<<endl<<PL("Grasz Wark¹.");
+                     cout<<endl<<PL("Wybra³eœ Warkê.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
                      cout<<"25/60";czk();
@@ -478,14 +480,10 @@ int i=1;
                             system("cls");
                             czk();
                             SetConsoleTextAttribute(kolor, 12);
-                            cout.width(45);
                             cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
                             SetConsoleTextAttribute(kolor, 8);
-                            cout.width(48);
                             cout<<"-------------------"<<endl;czk();
-                            cout.width(36);
                             cout<<"1. Nie."<<endl;czk();
-                            cout.width(36);
                             cout<<"2. Tak."<<endl;
                             napwn=getch();
                             if(napwn=='1')
@@ -499,7 +497,7 @@ int i=1;
               case 3://mendzioch
                      {
                      system("cls");
-                     cout<<endl<<PL("Grasz hipokryt¹.");
+                     cout<<endl<<PL("Wybra³eœ hipokrytê.");
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -526,7 +524,7 @@ int i=1;
               case 4://martaska
                      {
                      system("cls");
-                     cout<<endl<<PL("Grasz amatork¹.");
+                     cout<<endl<<PL("Wybra³eœ amatorkê.");
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -551,7 +549,7 @@ int i=1;
               case 5://Michal
                 {
                     system("cls");
-                    cout<<endl<<PL("Grasz programist¹.");
+                    cout<<endl<<PL("Wybra³eœ p³og³amiste.");
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -576,7 +574,7 @@ int i=1;
              case 6://Puma
                  {
                      system("cls");
-                     cout<<endl<<PL("Grasz mark¹ plecaków.");
+                     cout<<endl<<PL("Wybra³eœ markê plecaków.");
                      system("PAUSE");
                      int napwn;
                             system("cls");
@@ -601,7 +599,7 @@ int i=1;
              case 7://Patryk
                 {
                     system("cls");
-                    cout<<endl<<"Grasz informatykiem.";
+                    cout<<endl<<"Wybra³eœ informatyka.";
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -626,7 +624,7 @@ int i=1;
             case 8://Ala
                 {
                     system("cls");
-                    cout<<endl<<PL("Grasz pani¹ siln¹ i niezale¿n¹.");
+                    cout<<endl<<PL("Wybra³eœ pani¹ siln¹ i niezale¿n¹.");
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -651,7 +649,7 @@ int i=1;
             case 9://Laura
                     {
                         system("cls");
-                        cout<<endl<<PL("Grasz ¿on¹ Admina.");
+                        cout<<endl<<PL("Wybra³eœ ¿onê Admina.");
                         system("PAUSE");
                         int napwn;
                             system("cls");
@@ -676,7 +674,7 @@ int i=1;
             case 10://Buba
                 {
                     system("cls");
-                    cout<<endl<<"Grasz ukraincem.";
+                    cout<<endl<<"Wybra³eœ ukraiñca.";
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -701,7 +699,7 @@ int i=1;
             case 11://Ryba
                 {
                     system("cls");
-                    cout<<endl<<"Grasz kibolem.";
+                    cout<<endl<<"Wybra³eœ kibola.";
                     system("PAUSE");
                     int napwn;
                             system("cls");
@@ -726,7 +724,7 @@ int i=1;
             case 12://Krzysiek
                 {
                     system("cls");
-                    cout<<endl<<"Grasz Villagerem";
+                    cout<<endl<<"Wybra³eœ Villagera";
                     system("PAUSE");
                     int napwn;
                             system("cls");
