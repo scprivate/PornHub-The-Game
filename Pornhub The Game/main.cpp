@@ -67,16 +67,28 @@ void menu()
 }
 void wyborpostaci()
 {
-              int wyborpost;
-              if(!(cin >> wyborpost));
+       int wyborpost;
+              while(int oo=0);
               {
+                     for(;;)
+                     {
+                     cin>>wyborpost;
                      system("cls");
-                     cout<<endl<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
-                     getchar();
-                     system("exit");
+                     if ((wyborpost<=12)&&(wyborpost>=0))
+                     {
+                      goto x;
+                     }
+                     if (!(wyborpost))
+                     {
+                            goto x;
+                     }
+                                          cout<<endl<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
+                     }
               }
+              x:
               switch(wyborpost)
               {
+
               case 1: //Gorzki
                      {
                      system("cls");
@@ -155,8 +167,10 @@ void wyborpostaci()
                     cout<<endl<<"Grasz Villagerem";
                     break;
                 }
+              }
 
-       }
+
+
 }
 
 int main()
