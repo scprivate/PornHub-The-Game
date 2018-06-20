@@ -37,17 +37,222 @@ std::string PL( const char * text )
     }
     return result;
 }
-zzz
 
 void losowanie()
 {
        srand(time(NULL));
 }
+void HideCursor()
+{
+    ::HANDLE hConsoleOut =::GetStdHandle( STD_OUTPUT_HANDLE );
+    ::CONSOLE_CURSOR_INFO hCCI;
+    ::GetConsoleCursorInfo( hConsoleOut, & hCCI );
+    hCCI.bVisible = FALSE;
+    ::SetConsoleCursorInfo( hConsoleOut, & hCCI );
+}
+
+    HANDLE kolor;
+
+    void introtest()
+    {
+           cout<<endl<<endl<<endl<<endl<<endl;
+                  kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+           Sleep(100);
+           system("cls");
+           cout<<endl<<endl<<endl<<endl;
+                  kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+           Sleep(100);
+           system("cls");
+           cout<<endl<<endl<<endl;
+                  kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+           Sleep(100);
+           system("cls");
+           cout<<endl<<endl;
+                  kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+           Sleep(100);
+           system("cls");
+           cout<<endl;
+                  kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+           Sleep(100);
+           system("cls");
+       kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
 
 
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+
+        cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+        SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+        cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+        cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+        cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+        cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<PL("Wciœnij dowolny klawisz");
+    Sleep(100);
+    system("cls");
+
+    cout<<"";
+    Sleep(1000);
+    }
 void intro()
 {
-    HANDLE kolor;
+       cout<<endl<<endl<<endl<<endl<<endl;
     kolor=GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(kolor, 8);
     cout.width(59);
@@ -67,10 +272,29 @@ void intro()
     getch();
     system("cls");
 }
-void menu()
 
+void menu()
 {
+       int i=1;
+       int b=1;
+       while(i<=36)
+       {
+       cout<<"-";
+       Sleep(20);
+       i++;
+       }
+       SetConsoleTextAttribute(kolor, 11);
+       cout<<"PORNHUB";
+       SetConsoleTextAttribute(kolor, 8);
+       while(b<=36)
+       {
+       cout<<"-";
+       Sleep(20);
+       b++;
+       }
+       SetConsoleTextAttribute(kolor, 11);
     cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
+    SetConsoleTextAttribute(kolor, 8);
     Sleep(50);
     cout << "----------------"<<endl;
     Sleep(50);
@@ -235,7 +459,9 @@ void wyborpostaci()
 
 int main()
 {
+       HideCursor();
               intro();
+              introtest();
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
     return 0;
