@@ -5,7 +5,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <conio.h>
-#include <curses.h>
 #include <windows.h>
 
 using namespace std;
@@ -42,9 +41,8 @@ std::string PL( const char * text )
 void intro()
 {
     cout<<endl<<endl<<"DramaMaker Studio przedstawia";
-
-    Sleep(5000);
-    system("cls");
+       getch();
+       system("cls");
 }
 
 void menu()
@@ -70,7 +68,13 @@ void menu()
 void wyborpostaci()
 {
               int wyborpost;
-              cin >> wyborpost;
+              if(!(cin >> wyborpost));
+              {
+                     system("cls");
+                     cout<<endl<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
+                     getchar();
+                     system("exit");
+              }
               switch(wyborpost)
               {
               case 1: //Gorzki

@@ -27,3 +27,13 @@
 	<curses.h>
 	<windows.h>
 
+1529486580 source:c:\users\michal\documents\github\pornhub-the-game\pornhub the game\main.cpp
+	<iostream>
+	<windows.h>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+
