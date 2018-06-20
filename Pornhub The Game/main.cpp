@@ -5,7 +5,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <conio.h>
-#include <windows.h>
 
 using namespace std;
 //-----------
@@ -36,6 +35,10 @@ std::string PL( const char * text )
         default: result += * text; break;
     }
     return result;
+}
+void ekwipunek ()
+{
+
 }
 
 void losowanie()
@@ -464,6 +467,7 @@ int main()
               introtest();
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
+              ekwipunek()
     return 0;
 }
 
