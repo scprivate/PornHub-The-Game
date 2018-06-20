@@ -42,15 +42,21 @@ void intro()
 {
    HANDLE kolor;
     kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
     SetConsoleTextAttribute(kolor, 9);
     cout.width(57);
     cout<<endl<<"DramaMaker Studio przedstawia";
     cout.width(50);
     SetConsoleTextAttribute(kolor, 12);
-    cout<<endl<<"PornHub The Game";
+    cout<<endl<<"PornHub The Game"<<endl;
+    SetConsoleTextAttribute(kolor, 8);
+    cout.width(59);
+    cout<<"---------------------------------";
     cout.width(54);
     SetConsoleTextAttribute(kolor, 8);
-    cout<<endl<<endl<<endl<<"Wcisnij dowolny klawisz";
+    cout<<endl<<endl<<endl<<PL("Wciœnij dowolny klawisz");
     getch();
     system("cls");
 }
