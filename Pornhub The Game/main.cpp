@@ -37,6 +37,13 @@ std::string PL( const char * text )
     }
     return result;
 }
+zzz
+
+void losowanie()
+{
+       srand(time(NULL));
+}
+
 
 void intro()
 {
@@ -64,42 +71,58 @@ void menu()
 
 {
     cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
+    Sleep(50);
     cout << "----------------"<<endl;
+    Sleep(50);
     cout << "1. Gorzki"<<endl;
+    Sleep(50);
     cout << "2. Martyna"<<endl;
+    Sleep(50);
     cout << "3. Filip"<<endl;
+    Sleep(50);
     cout << "4. Marta"<<endl;
+    Sleep(50);
     cout << PL("5. Micha³")<<endl;
+    Sleep(50);
     cout << "6. Puma" <<endl;
+    Sleep(50);
     cout << "7. Patryk"<< endl;
+    Sleep(50);
     cout << "8. Ala"<<endl;
+    Sleep(50);
     cout << "9. Laura"<<endl;
+    Sleep(50);
     cout << "10. Buba"<<endl;
+    Sleep(50);
     cout << "11. Ryba"<<endl;
+    Sleep(50);
     cout << "12. Krzysiek"<<endl;
+    Sleep(50);
     cout << "----------------";
+    Sleep(50);
     cout<< endl<<PL("Wybierz postaæ: ");
 
 }
 void wyborpostaci()
 {
        int wyborpost;
-              while(int oo=0);
-              {
                      for(;;)
                      {
                      cin>>wyborpost;
-                     if ((wyborpost<=12)&&(wyborpost>=0))
-                     {
-                      goto x;
-                     }
                      if (!(wyborpost))
                      {
-                            cin.ignore(1000, '\n');
-                            cout<<"afda";
+                     wyborpost = 0;
+                     cin.clear();
+                      goto x;
                      }
-                                          cout<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
-                                          Sleep(2000);
+                     if ((wyborpost<=12)&&(wyborpost>=1))
+                     {
+                            goto y;
+                     }
+                                          x:
+                                                 wyborpost = 0;
+                                                 cin.ignore();
+                                                 cin.clear();
                                           system("cls");
 
     cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
@@ -117,12 +140,11 @@ void wyborpostaci()
     cout << "11. Ryba"<<endl;
     cout << "12. Krzysiek"<<endl;
     cout << "----------------";
-    cout<< endl<<PL("Wybierz postaæ: ");
+    cout<< endl<<PL("B³¹d, spróbój ponownie: ");
 
 
                      }
-              }
-              x:
+                     y:
               switch(wyborpost)
               {
 
@@ -130,6 +152,7 @@ void wyborpostaci()
                      {
                      system("cls");
                      cout<<endl<<"Grasz ekonomem.";
+                     losowanie();
                       break;
                      }
 
