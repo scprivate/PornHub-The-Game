@@ -427,21 +427,6 @@ int i=1;
 
               case 1: //Gorzki
                      {
-                            int napwn;
-                            system("cls");
-                            czk();
-                            SetConsoleTextAttribute(kolor, 12);
-                            cout<<endl<<endl<<"Jestes pewny?"<<endl;czk();
-                            SetConsoleTextAttribute(kolor, 8);
-                            cout<<"------------------"<<endl;czk();
-                            cout<<"1. Nie."<<endl;czk();
-                            cout<<"2. Tak."<<endl;
-                            napwn=getch();
-                            if(napwn=='1')
-                            {
-                             goto powrotdowyboru;
-                            }
-
                      system("cls");
                      cout<<endl<<"Grasz ekonomem.";czk();
 
@@ -451,9 +436,27 @@ int i=1;
                      SetConsoleTextAttribute(kolor, 8);
                      cout<<endl<<"Ekwipunek: ";czk();
                      SetConsoleTextAttribute(kolor, 11);
-                     cout<<"Okulary,";czk();
+                     cout<<"Okulary,"<<endl;czk();//dokoñczyæ
                      SetConsoleTextAttribute(kolor, 8);
                      system("PAUSE");
+                     int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                       break;
                      }
 
@@ -462,6 +465,33 @@ int i=1;
                      {
                      system("cls");
                      cout<<endl<<PL("Grasz Wark¹.");
+                     cout<<endl<<"Charyzma: ";czk();
+                     SetConsoleTextAttribute(kolor, 12);
+                     cout<<"25/60";czk();
+                     SetConsoleTextAttribute(kolor, 8);
+                     cout<<endl<<"Ekwipunek: ";czk();
+                     SetConsoleTextAttribute(kolor, 11);
+                     cout<<"Manga, Okulary,"<<endl;
+                     SetConsoleTextAttribute(kolor, 8);
+                     system("PAUSE");
+                     int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                      break;
                      }
 
@@ -470,6 +500,25 @@ int i=1;
                      {
                      system("cls");
                      cout<<endl<<PL("Grasz hipokryt¹.");
+                     system("PAUSE");
+                     int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                      break;
                      }
 
@@ -478,54 +527,225 @@ int i=1;
                      {
                      system("cls");
                      cout<<endl<<PL("Grasz amatork¹.");
+                     system("PAUSE");
+                     int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                      break;
                      }
               case 5://Michal
                 {
                     system("cls");
                     cout<<endl<<PL("Grasz programist¹.");
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
              case 6://Puma
                  {
                      system("cls");
                      cout<<endl<<PL("Grasz mark¹ plecaków.");
+                     system("PAUSE");
+                     int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                      break;
                  }
              case 7://Patryk
                 {
                     system("cls");
                     cout<<endl<<"Grasz informatykiem.";
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
             case 8://Ala
                 {
                     system("cls");
                     cout<<endl<<PL("Grasz pani¹ siln¹ i niezale¿n¹.");
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
             case 9://Laura
                     {
                         system("cls");
                         cout<<endl<<PL("Grasz ¿on¹ Admina.");
+                        system("PAUSE");
+                        int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                         break;
                     }
             case 10://Buba
                 {
                     system("cls");
                     cout<<endl<<"Grasz ukraincem.";
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
             case 11://Ryba
                 {
                     system("cls");
                     cout<<endl<<"Grasz kibolem.";
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
             case 12://Krzysiek
                 {
                     system("cls");
                     cout<<endl<<"Grasz Villagerem";
+                    system("PAUSE");
+                    int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout.width(45);
+                            cout<<endl<<endl<<PL("Jesteœ pewny?")<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout.width(48);
+                            cout<<"-------------------"<<endl;czk();
+                            cout.width(36);
+                            cout<<"1. Nie."<<endl;czk();
+                            cout.width(36);
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
                     break;
                 }
               }
@@ -537,6 +757,7 @@ int i=1;
 int main()
 {
        PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
+       //PlaySound(TEXT("dzwiek.wav"), NULL, SND_ASYNC);
        HideCursor();
               intro();
               introtest();
