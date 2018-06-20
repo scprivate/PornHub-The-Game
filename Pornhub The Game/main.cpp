@@ -52,11 +52,12 @@ void intro()
     SetConsoleTextAttribute(kolor, 8);
     cout<<endl<<endl<<endl<<"Wcisnij dowolny klawisz"<<endl;
     getch();
+    system("cls");
 }
 void menu()
 
 {
-    cout << PL("Kim chcesz zagraæ?")<< endl;
+    cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
     cout << "----------------"<<endl;
     cout << "1. Gorzki"<<endl;
     cout << "2. Martyna"<<endl;
@@ -82,16 +83,36 @@ void wyborpostaci()
                      for(;;)
                      {
                      cin>>wyborpost;
-                     system("cls");
                      if ((wyborpost<=12)&&(wyborpost>=0))
                      {
                       goto x;
                      }
                      if (!(wyborpost))
                      {
-                            goto x;
+                            cin.ignore(1000, '\n');
+                            cout<<"afda";
                      }
-                                          cout<<endl<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
+                                          cout<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
+                                          Sleep(2000);
+                                          system("cls");
+    cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
+    cout << "----------------"<<endl;
+    cout << "1. Gorzki"<<endl;
+    cout << "2. Martyna"<<endl;
+    cout << "3. Filip"<<endl;
+    cout << "4. Marta"<<endl;
+    cout << PL("5. Micha³")<<endl;
+    cout << "6. Puma" <<endl;
+    cout << "7. Patryk"<< endl;
+    cout << "8. Ala"<<endl;
+    cout << "9. Laura"<<endl;
+    cout << "10. Buba"<<endl;
+    cout << "11. Ryba"<<endl;
+    cout << "12. Krzysiek"<<endl;
+    cout << "----------------";
+    cout<< endl<<PL("Wybierz postaæ: ");
+
+
                      }
               }
               x:
