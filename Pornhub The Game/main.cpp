@@ -5,9 +5,10 @@
 #include <time.h>
 #include <stdio.h>
 #include <conio.h>
+#include <mmsystem.h>
 
 using namespace std;
-//-----------
+//-----------z
 std::string PL( const char * text )
 {
     std::string result;
@@ -336,6 +337,10 @@ void menu()
 
 
 }
+void czk()
+{
+       Sleep(50);
+}
 void wyborpostaci()
 {
        int wyborpost;
@@ -356,24 +361,63 @@ void wyborpostaci()
                                                  wyborpost = 0;
                                                  cin.ignore();
                                                  cin.clear();
+                                                 powrotdowyboru:
                                           system("cls");
-
+int i=1;
+       int b=1;
+       while(i<=32)
+       {
+       cout<<"-";
+       Sleep(10);
+       i++;
+       }
+       SetConsoleTextAttribute(kolor, 12);
+       cout<<"PORNHUB THE GAME";
+       SetConsoleTextAttribute(kolor, 8);
+       while(b<=32)
+       {
+       cout<<"-";
+       Sleep(20);
+       b++;
+       }
+       SetConsoleTextAttribute(kolor, 11);
     cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
+    SetConsoleTextAttribute(kolor, 8);
+    Sleep(50);
     cout << "----------------"<<endl;
+    Sleep(50);
     cout << "1. Gorzki"<<endl;
+    Sleep(50);
     cout << "2. Martyna"<<endl;
+    Sleep(50);
     cout << "3. Filip"<<endl;
+    Sleep(50);
     cout << "4. Marta"<<endl;
+    Sleep(50);
     cout << PL("5. Micha³")<<endl;
+    Sleep(50);
     cout << "6. Puma" <<endl;
+    Sleep(50);
     cout << "7. Patryk"<< endl;
+    Sleep(50);
     cout << "8. Ala"<<endl;
+    Sleep(50);
     cout << "9. Laura"<<endl;
+    Sleep(50);
     cout << "10. Buba"<<endl;
+    Sleep(50);
     cout << "11. Ryba"<<endl;
+    Sleep(50);
     cout << "12. Krzysiek"<<endl;
+    Sleep(50);
     cout << "----------------";
-    cout<< endl<<PL("B³¹d, spróbój ponownie: ");
+    Sleep(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<PL("Ka¿da z postaci ma wyznaczony ekwipunek oraz charyzmê która wp³ywa na ³atwoœæ,");
+    cout<<endl<<PL("lub trudnoœæ prowadzenia dialogów.");
+    Sleep(50);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<< endl<<endl<<PL("B³¹d, spróbój ponownie: ");
 
 
                      }
@@ -383,16 +427,33 @@ void wyborpostaci()
 
               case 1: //Gorzki
                      {
+                            int napwn;
+                            system("cls");
+                            czk();
+                            SetConsoleTextAttribute(kolor, 12);
+                            cout<<endl<<endl<<"Jestes pewny?"<<endl;czk();
+                            SetConsoleTextAttribute(kolor, 8);
+                            cout<<"------------------"<<endl;czk();
+                            cout<<"1. Nie."<<endl;czk();
+                            cout<<"2. Tak."<<endl;
+                            napwn=getch();
+                            if(napwn=='1')
+                            {
+                             goto powrotdowyboru;
+                            }
+
                      system("cls");
-                     cout<<endl<<"Grasz ekonomem.";
-                     cout<<endl<<"Charyzma: ";
+                     cout<<endl<<"Grasz ekonomem.";czk();
+
+                     cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
-                     cout<<"30/60";
+                     cout<<"30/60";czk();
                      SetConsoleTextAttribute(kolor, 8);
-                     cout<<endl<<"Ekwipunek: ";
+                     cout<<endl<<"Ekwipunek: ";czk();
                      SetConsoleTextAttribute(kolor, 11);
-                     cout<<"Okulary,";
+                     cout<<"Okulary,";czk();
                      SetConsoleTextAttribute(kolor, 8);
+                     system("PAUSE");
                       break;
                      }
 
@@ -475,6 +536,7 @@ void wyborpostaci()
 
 int main()
 {
+       PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
        HideCursor();
               intro();
               introtest();

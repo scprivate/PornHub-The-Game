@@ -27,7 +27,7 @@
 	<curses.h>
 	<windows.h>
 
-1529495644 source:c:\users\michal\documents\github\pornhub-the-game\pornhub the game\main.cpp
+1529520404 source:c:\users\michal\documents\github\pornhub-the-game\pornhub the game\main.cpp
 	<iostream>
 	<windows.h>
 	<stdlib.h>
@@ -35,7 +35,7 @@
 	<time.h>
 	<stdio.h>
 	<conio.h>
-	<windows.h>
+	<mmsystem.h>
 
 1529502212 source:c:\users\admin\documents\github\pornhub-the-game\pornhub the game\main.cpp
 	<iostream>
