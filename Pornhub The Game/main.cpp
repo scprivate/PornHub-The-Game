@@ -40,12 +40,21 @@ std::string PL( const char * text )
 
 void intro()
 {
-    cout<<endl<<endl<<"DramaMaker Studio przedstawia";
-       getch();
-       system("cls");
+   HANDLE kolor;
+    kolor=GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTextAttribute(kolor, 9);
+    cout.width(57);
+    cout<<endl<<"DramaMaker Studio przedstawia";
+    cout.width(50);
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<"PornHub The Game";
+    cout.width(54);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<<endl<<endl<<endl<<"Wcisnij dowolny klawisz"<<endl;
+    getch();
 }
-
 void menu()
+
 {
     cout << PL("Kim chcesz zagraæ?")<< endl;
     cout << "----------------"<<endl;
