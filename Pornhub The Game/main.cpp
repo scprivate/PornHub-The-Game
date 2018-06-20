@@ -280,16 +280,16 @@ void menu()
 {
        int i=1;
        int b=1;
-       while(i<=36)
+       while(i<=32)
        {
        cout<<"-";
-       Sleep(20);
+       Sleep(10);
        i++;
        }
-       SetConsoleTextAttribute(kolor, 11);
-       cout<<"PORNHUB";
+       SetConsoleTextAttribute(kolor, 12);
+       cout<<"PORNHUB THE GAME";
        SetConsoleTextAttribute(kolor, 8);
-       while(b<=36)
+       while(b<=32)
        {
        cout<<"-";
        Sleep(20);
@@ -327,7 +327,13 @@ void menu()
     Sleep(50);
     cout << "----------------";
     Sleep(50);
-    cout<< endl<<PL("Wybierz postaæ: ");
+    SetConsoleTextAttribute(kolor, 12);
+    cout<<endl<<PL("Ka¿da z postaci ma wyznaczony ekwipunek oraz charyzmê która wp³ywa na ³atwoœæ,");
+    cout<<endl<<PL("lub trudnoœæ prowadzenia dialogów.");
+    Sleep(50);
+    SetConsoleTextAttribute(kolor, 8);
+    cout<< endl<<endl<<PL("Wybierz postaæ: ");
+
 
 }
 void wyborpostaci()
@@ -379,7 +385,14 @@ void wyborpostaci()
                      {
                      system("cls");
                      cout<<endl<<"Grasz ekonomem.";
-                     losowanie();
+                     cout<<endl<<"Charyzma: ";
+                     SetConsoleTextAttribute(kolor, 12);
+                     cout<<"30/60";
+                     SetConsoleTextAttribute(kolor, 8);
+                     cout<<endl<<"Ekwipunek: ";
+                     SetConsoleTextAttribute(kolor, 11);
+                     cout<<"Okulary,";
+                     SetConsoleTextAttribute(kolor, 8);
                       break;
                      }
 
@@ -467,7 +480,7 @@ int main()
               introtest();
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
-              ekwipunek()
+              ekwipunek();
     return 0;
 }
 
