@@ -50,7 +50,7 @@ void intro()
     cout<<endl<<"PornHub The Game";
     cout.width(54);
     SetConsoleTextAttribute(kolor, 8);
-    cout<<endl<<endl<<endl<<"Wcisnij dowolny klawisz"<<endl;
+    cout<<endl<<endl<<endl<<"Wcisnij dowolny klawisz";
     getch();
     system("cls");
 }
@@ -95,6 +95,7 @@ void wyborpostaci()
                                           cout<<PL("Wpisano b³êdny znak lub za du¿¹ liczbê.")<<endl<<endl;
                                           Sleep(2000);
                                           system("cls");
+
     cout <<endl<<PL("Kim chcesz zagraæ?")<< endl;
     cout << "----------------"<<endl;
     cout << "1. Gorzki"<<endl;
