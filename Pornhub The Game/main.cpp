@@ -840,7 +840,6 @@ int main()
               introtest();
               menu();//menu
               wyborpostaci();//nwm czm to tak nazwalem
-              ekwipunek();
     return 0;
 }
 
