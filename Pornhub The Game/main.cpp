@@ -428,6 +428,7 @@ int i=1;
               case 1: //Gorzki
                      {
                      system("cls");
+                     PlaySound(TEXT("gorzki.wav"), NULL, SND_ASYNC);
                      cout<<endl<<PL("Wybra³eœ ekonoma.");czk();
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -540,6 +541,7 @@ int i=1;
               case 2://martyna
                      {
                      system("cls");
+                     PlaySound(TEXT("martyna.wav"), NULL, SND_ASYNC);
                      cout<<endl<<PL("Wybra³eœ Warkê.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -571,6 +573,7 @@ int i=1;
               case 3://mendzioch
                      {
                      system("cls");
+                     PlaySound(TEXT("filip.wav"), NULL, SND_ASYNC);
                      cout<<endl<<PL("Wybra³eœ hipokrytê.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -606,6 +609,7 @@ int i=1;
               case 4://martaska
                      {
                      system("cls");
+                     PlaySound(TEXT("marta.wav"), NULL, SND_ASYNC);
                      cout<<endl<<PL("Wybra³eœ amatorkê.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -639,6 +643,7 @@ int i=1;
               case 5://Michal
                 {
                     system("cls");
+                    PlaySound(TEXT("michal.wav"), NULL, SND_ASYNC);
                     cout<<endl<<PL("Wybra³eœ programiste.");
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
@@ -672,6 +677,7 @@ int i=1;
              case 6://Puma
                  {
                      system("cls");
+                     PlaySound(TEXT("puma.wav"), NULL, SND_ASYNC);
                      cout<<endl<<PL("Wybra³eœ markê plecaków.");
                      cout<<endl<<"Charyzma: ";czk();
                      SetConsoleTextAttribute(kolor, 12);
@@ -705,6 +711,7 @@ int i=1;
              case 7://Patryk
                 {
                     system("cls");
+                    PlaySound(TEXT("patryk.wav"), NULL, SND_ASYNC);
                     cout<<endl<<"Wybra³eœ informatyka.";
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
@@ -738,6 +745,7 @@ int i=1;
             case 8://Ala
                 {
                     system("cls");
+                    PlaySound(TEXT("ala.wav"), NULL, SND_ASYNC);
                     cout<<endl<<PL("Wybra³eœ pani¹ siln¹ i niezale¿n¹.");
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
@@ -771,6 +779,7 @@ int i=1;
             case 9://Laura
                     {
                         system("cls");
+                        PlaySound(TEXT("laura.wav"), NULL, SND_ASYNC);
                         cout<<endl<<PL("Wybra³eœ ¿onê Admina.");
                         cout<<endl<<"Charyzma: ";czk();
                         SetConsoleTextAttribute(kolor, 12);
@@ -804,7 +813,8 @@ int i=1;
             case 10://Buba
                 {
                     system("cls");
-                    cout<<endl<<"Wyb³a³eœ uk³aiñca.";
+                    PlaySound(TEXT("buba.wav"), NULL, SND_ASYNC);
+                    cout<<endl<<PL("Wyb³a³eœ uk³aiñca.");
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
                     cout<<"60/60";czk();//odj¹æ póŸniej w dialogach 40 za seplenienie i 10 za bycie ukraincem
@@ -837,7 +847,8 @@ int i=1;
             case 11://Ryba
                 {
                     system("cls");
-                    cout<<endl<<"Wybra³eœ kibola.";
+                    PlaySound(TEXT("ryba.wav"), NULL, SND_ASYNC);
+                    cout<<endl<<PL("Wybra³eœ kibola.");
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
                     cout<<"35/60";czk();
@@ -870,7 +881,8 @@ int i=1;
             case 12://Krzysiek
                 {
                     system("cls");
-                    cout<<endl<<"Wybra³eœ Villagera";
+                    PlaySound(TEXT("krzysiek.wav"), NULL, SND_ASYNC);
+                    cout<<endl<<PL("Wybra³eœ Villagera");
                     cout<<endl<<"Charyzma: ";czk();
                     SetConsoleTextAttribute(kolor, 12);
                     cout<<"25/60";czk();
@@ -905,8 +917,7 @@ int i=1;
 
 int main()
 {
-       //PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
-       //PlaySound(TEXT("dzwiek.wav"), NULL, SND_ASYNC);
+       PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
        HideCursor();
               intro();
               introtest();
