@@ -458,6 +458,7 @@ int i=1;
                             }
                             if(napwn=='2')
                             {
+                                   int wyborgorzky;
                                 system("cls");
                                 cout.width(32);
                                 cout<<"Mijesce: ";
@@ -490,7 +491,47 @@ int i=1;
                                 cout<<endl<<PL("4. ");
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<PL("Kierujesz siê do drzwi za tob¹.");
+                                   wyborgorzky=getch();
+                                   switch(wyborgorzky)
+                                   {
+                                   case '1':
+                                          {
+                                   system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Dom Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<"17:04";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<endl<<endl<<PL("Wszed³eœ do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"W domu Ali widzisz ......"<<endl;
+                                cout<<"W domu Ali widzisz ......"<<endl;
+                                cout<<"W domu Ali widzisz ......"<<endl;
+                                cout<<"W domu Ali widzisz ......"<<endl;
+                                          break;
+                                          }
+                                   case '2':
+                                          {
 
+                                          break;
+                                          }
+                                   case '3':
+                                          {
+
+                                          break;
+                                          }
+                                   case'4':
+                                          {
+
+                                          break;
+                                          }
+
+                                   }
                             }
                       break;
                      }
