@@ -547,7 +547,7 @@ int i=1;
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<"--------------------------------------------------------------------------------";
                                 SetConsoleTextAttribute(kolor, 11);
-                                cout<<endl<<"Co Robisz?"<<endl;
+                                cout<<endl<<"Co robisz?"<<endl;
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<"1. ";
                                 SetConsoleTextAttribute(kolor, 8);
