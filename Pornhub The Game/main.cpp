@@ -37,10 +37,7 @@ std::string PL( const char * text )
     }
     return result;
 }
-void ekwipunek ()
-{
 
-}
 
 void losowanie()
 {
@@ -475,7 +472,7 @@ int i=1;
                                 cout<<endl<<PL("Po prawej widzisz schody na wy¿sze piêtro, ");
                                 cout<<endl<<PL("za tob¹ znajduj¹ siê drzwi do innego mieszkania.");
                                 SetConsoleTextAttribute(kolor, 11);
-                                cout<<endl<<PL("Co robisz?");
+                                cout<<endl<<endl<<PL("Co robisz?");
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<endl<<PL("1. ");
                                 SetConsoleTextAttribute(kolor, 8);
@@ -510,10 +507,23 @@ int i=1;
                                 SetConsoleTextAttribute(kolor, 4);
                                 cout<<endl<<endl<<endl<<PL("Wszed³eœ do domu Ali.")<<endl;
                                 SetConsoleTextAttribute(kolor, 8);
-                                cout<<"W domu Ali widzisz ......"<<endl;
-                                cout<<"W domu Ali widzisz ......"<<endl;
-                                cout<<"W domu Ali widzisz ......"<<endl;
-                                cout<<"W domu Ali widzisz ......"<<endl;
+                                cout<<endl<<PL("Jesteœ w œrodku. Zdejmujesz buty, przychodzi Ala i chcê siê przywitaæ.");
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<endl<<"Co Robisz?"<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Witasz siê i rozpoczynasz dialog.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Witasz siê ale nie odzywasz siê.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Ignorujesz.")<<endl;
+
+
                                           break;
                                           }
                                    case '2':
