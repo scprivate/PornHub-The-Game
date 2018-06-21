@@ -528,6 +528,16 @@ int i=1;
                                           }
                                    case '2':
                                           {
+                                system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<"17:03";
 
                                           break;
                                           }
@@ -538,6 +548,7 @@ int i=1;
                                           }
                                    case'4':
                                           {
+
 
                                           break;
                                           }
