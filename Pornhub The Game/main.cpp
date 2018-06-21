@@ -335,8 +335,6 @@ void menu()
     Sleep(50);
     SetConsoleTextAttribute(kolor, 8);
     cout<< endl<<endl<<PL("Wybierz postaæ: ");
-
-
 }
 void czk()
 {
@@ -457,6 +455,42 @@ int i=1;
                             if(napwn=='1')
                             {
                              goto powrotdowyboru;
+                            }
+                            if(napwn=='2')
+                            {
+                                system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<"17:02";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<endl<<endl<<endl<<PL("Stoisz przed drzwiami do domu Ali razem z Micha³em.");
+                                cout<<endl<<PL("Po prawej widzisz schody na wy¿sze piêtro, ");
+                                cout<<endl<<PL("za tob¹ znajduj¹ siê drzwi do innego mieszkania.");
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<PL("Co robisz?");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("1. ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("2. ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Rozpoczynasz dialog z Micha³em.");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("3. ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz schodami na wy¿sze piêtro.");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("4. ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.");
+
                             }
                       break;
                      }
@@ -826,14 +860,11 @@ int i=1;
                     break;
                 }
               }
-
-
-
 }
 
 int main()
 {
-       PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
+       //PlaySound(TEXT("muz.wav"), NULL, SND_ASYNC);
        //PlaySound(TEXT("dzwiek.wav"), NULL, SND_ASYNC);
        HideCursor();
               intro();
