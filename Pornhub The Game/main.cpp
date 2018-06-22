@@ -615,7 +615,7 @@ int i=1;
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<endl<<PL("2. ");
                                 SetConsoleTextAttribute(kolor, 8);
-                                cout<<PL("Opcja pierwsza.");
+                                cout<<PL("Tak wiesz ¿e musisz tam wróciæ.");
                                 wyborgorzky2=getch();
                                 switch(wyborgorzky2)
                                 {
@@ -642,6 +642,84 @@ int i=1;
                                           }
                                    case '3':
                                           {
+                                              int wyborgorzky3;
+                                               system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<"17:02";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout.width(55);
+                                cout<<endl<<endl<<endl<<PL("Rozpoczynasz dialog z Micha³em.")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("To co, ile bêdziesz pi³?")<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Ma³o.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Nie wiem.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Stary najebie sie w chuj.")<<endl;
+                                wyborgorzky3==getch();
+                                switch(wyborgorzky3)
+                                {
+                                case '1':
+                                    {
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<"17:02";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout.width(55);
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<endl<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Ma³o.");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("To co, ile bêdziesz pi³?")<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Ma³o.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Nie wiem.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Stary najebie sie w chuj.")<<endl;
+
+                                    }
+                                }
 
                                           break;
                                           }
