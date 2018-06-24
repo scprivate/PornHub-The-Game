@@ -37,7 +37,7 @@ std::string PL( const char * text )
     }
     return result;
 }
-
+int wyborgorzki3;
 
 void losowanie()
 {
@@ -523,7 +523,7 @@ int i=1;
                                 cout<<PL("Kierujesz siê do drzwi za tob¹.");
                                 przeddrzwi:
                                    wyborgorzky=getch();
-                                   switch(wyborgorzky)
+                                                                      switch(wyborgorzky)
                                    {
                                    case '1':
                                           {
@@ -676,7 +676,7 @@ int i=1;
                                 cout<<"3. ";
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<PL("Stary najebie sie w chuj.")<<endl;
-                                wyborgorzky3==getch();
+                                wyborgorzky3=getch();
                                 switch(wyborgorzky3)
                                 {
                                 case '1':
@@ -685,7 +685,7 @@ int i=1;
                                         cout.width(32);
                                 cout<<"Mijesce: ";
                                 SetConsoleTextAttribute(kolor, 10);
-                                cout<<"Klatka schodowa w bloku Ali";
+                                cout<<"Klatka schoddfhgdi";
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout.width(32);
                                 cout<<endl<<"Godzina: ";
