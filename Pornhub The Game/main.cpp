@@ -489,7 +489,7 @@ int i=1;
                             {
                              goto powrotdowyboru;
                             }
-                            if(napwn=='2')
+                            if(napwn=='2')//wybór g³ówny
                             {
                                    int wyborgorzky;
                                 system("cls");
@@ -531,7 +531,7 @@ int i=1;
                                 wyborgorzky=getch();
                                 switch(wyborgorzky)
                                    {
-                                   case '1':
+                                   case '1'://wybór 1
                                           {
                                    system("cls");
                                 cout.width(32);
@@ -566,11 +566,9 @@ int i=1;
                                 cout<<"3. ";
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<PL("Ignorujesz.")<<endl;
-
-
-                                          break;
+                                break;
                                           }
-                                   case '2':
+                                   case '2'://wybór 2
                                           {
                                               int wyborgorzky2;
                                 system("cls");
@@ -623,16 +621,18 @@ int i=1;
                                 wyborgorzky2=getch();
                                 switch(wyborgorzky2)
                                 {
-                                case '1':
+                                case '1'://wybór 2.1
                                     {
                                           powrotdrzwi();
                                           goto przeddrzwi;
+                                          break;
                                     }
 
-                                 case '2':
+                                 case '2'://wybór 2.2
                                  {
                                           powrotdrzwi();
                                           goto przeddrzwi;
+                                          break;
 
                                  }
                                 }
@@ -644,7 +644,7 @@ int i=1;
 
                                           break;
                                           }
-                                   case '3':
+                                   case '3'://wybór 3
                                           {
                                               int wyborgorzky3;
                                                system("cls");
@@ -682,8 +682,9 @@ int i=1;
                                 cout<<PL("Stary najebie sie w chuj.")<<endl;
                                 wyborgorzky3=getch();
                                 switch(wyborgorzky3)
+
                                 {
-                                case '1':
+                                case '1'://wybór 3.1
                                     {
                                         int wyborgorzky4;
                                         system("cls");
@@ -723,8 +724,9 @@ int i=1;
                                 cout<<PL("Jakoœ tak wysz³o, a ty ile pijesz?")<<endl;
                                 wyborgorzky4=getch();
                                 switch(wyborgorzky4)
+
                                 {
-                                    case '1':
+                                    case '1'://wybór 3.1.1
                                     {
                                         int wyborgorzky5;
                                         system("cls");
@@ -766,7 +768,95 @@ int i=1;
                                 cout<<"3. ";
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
                                     }
+                                    case '2'://3.1.2
+                                        {
+                                        int wyborgorzky6;
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("MORDA.")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ nic nie mówi.")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                        }
+                                case '3'://wybór 3.1.3
+                                {
+                                    system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Jakoœ tak wysz³o, a ty ile pijesz?")<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Mo¿e jedna flaszeczka nie wiem jeszcze.")<<endl;
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Hm no dobrze.")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                }
                                 }
 
                                     }
@@ -774,7 +864,7 @@ int i=1;
 
                                           break;
                                           }
-                                   case'4':
+                                   case'4'://wybór 4
                                           {
 
 
