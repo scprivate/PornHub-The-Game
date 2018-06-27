@@ -253,7 +253,8 @@ void HideCursor()
     }
     void powrotdrzwi()
                                         {
-                                        system("cls");
+                                        int wyborgorzky;
+                                system("cls");
                                 cout.width(32);
                                 cout<<"Mijesce: ";
                                 SetConsoleTextAttribute(kolor, 10);
@@ -262,7 +263,7 @@ void HideCursor()
                                 cout.width(32);
                                 cout<<endl<<"Godzina: ";
                                 SetConsoleTextAttribute(kolor, 4);
-                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                cout<<PL("oko³o 17")<<endl<<endl;
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<"--------------------------------------------------------------------------------";
                                 cout<<endl<<PL("Stoisz przed drzwiami do domu Ali razem z Micha³em.");
@@ -271,7 +272,7 @@ void HideCursor()
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<"--------------------------------------------------------------------------------";
                                 SetConsoleTextAttribute(kolor, 11);
-                                cout<<endl<<endl<<PL("Co robisz?");
+                                cout<<endl<<PL("Co robisz?")<<endl;
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<endl<<PL("1. ");
                                 SetConsoleTextAttribute(kolor, 8);
@@ -279,12 +280,15 @@ void HideCursor()
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<endl<<PL("2. ");
                                 SetConsoleTextAttribute(kolor, 8);
-                                cout<<PL("Rozpoczynasz dialog z Micha³em.");
+                                cout<<PL("Wchodzisz po schodach.");
                                 SetConsoleTextAttribute(kolor, 12);
                                 cout<<endl<<PL("3. ");
                                 SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Rozpoczynasz dialog z Micha³em.");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("4. ");
+                                SetConsoleTextAttribute(kolor, 8);
                                 cout<<PL("Kierujesz siê do drzwi za tob¹.");
-
                                         }
 void intro()
 {
@@ -791,7 +795,7 @@ int i=1;
                                 cout<<PL("MORDA.")<<endl;
                                 cout.width(80);
                                 SetConsoleTextAttribute(kolor, 7);
-                                cout<<endl<<PL("Micha³ nic nie mówi.")<<endl;
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
                                 SetConsoleTextAttribute(kolor, 8);
                                 cout<<"--------------------------------------------------------------------------------"<<endl;
                                 SetConsoleTextAttribute(kolor, 11);
@@ -812,7 +816,8 @@ int i=1;
                                         }
                                 case '3'://wybór 3.1.3
                                 {
-                                    system("cls");
+                                        int wyborgorzky7;
+                                        system("cls");
                                         cout.width(32);
                                 cout<<"Mijesce: ";
                                 SetConsoleTextAttribute(kolor, 10);
@@ -860,15 +865,366 @@ int i=1;
                                 }
 
                                     }
+                                case '2'://wybór 3.2
+                                    {
+                                        int wyborgorzky8;
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Nie wiem.")<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Jasne, pewnie skoñczysz jak Puma rok temu na majówie.")<<endl<<endl;
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Pierdol siê.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("* Œmiejesz siê *")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Jo albo jak ty u Ali w maju w tamtym roku.")<<endl;
+                                wyborgorzky8=getch();
+                                switch(wyborgorzky8)
+                                {
+                                case '1'://wybór 3.2.1
+                                    {
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Pierdol siê.")<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Sam siê pierdol.")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                    }
+                                case '2'://3.2.2
+                                    {
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("* Œmiejesz siê *")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                    }
+                                case '3'://wybór 3.2.3
+                                {
+                                    system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Jo albo jak ty u Ali w maju w tamtym roku.")<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("* Spogl¹da na ciebie z lekk¹ nienawiœci¹ *")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                }
+                                }
+
+                                    }
+                                case '3'://wybór 3.3
+                                    {
+                                        system("cls");
+                                        cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali.";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17")<<endl<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<endl<<PL("Gorzki: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Stary najebie siê w chuj.")<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<PL("Micha³: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("* Spogl¹da na ciebie ze zdziwieniem *")<<endl;
+                                cout.width(80);
+                                SetConsoleTextAttribute(kolor, 7);
+                                cout<<endl<<PL("Micha³ zapamiêta to!")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------"<<endl;
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<"Co robisz?"<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz po schodach.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wchodzisz do domu Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"3. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kierujesz siê do drzwi za tob¹.")<<endl;
+                                break;
+                                    }
                                 }
 
                                           break;
                                           }
                                    case'4'://wybór 4
                                           {
-
-
+                                              int wyborgorzky9;
+                                              system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17");
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout.width(50);
+                                cout<<endl<<endl<<endl<<PL("Podszed³eœ do drzwi")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<endl<<PL("£apiesz za klamkê i próbujesz otworzyæ.");
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<endl<<PL("Drzwi s¹ zamkniête.");
+                                SetConsoleTextAttribute(kolor, 2);
+                                cout<<endl<<PL("Narrator: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Spodziewa³eœ siê czegoœ innego debilu?")<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<"Co robisz?"<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wracasz przed drzwi do mieszkania Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Walisz w drzwi jak debil.")<<endl;
+                                wyborgorzky9=getch();
+                                switch(wyborgorzky9)
+                                {
+                                case '1'://wybór 4.1
+                                    {
+                                          powrotdrzwi();
+                                          goto przeddrzwi;
                                           break;
+
+                                    }
+                                case '2'://wybór 4.2
+                                    {
+                                        int wyborgorzky10;
+                                        system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17");
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout.width(50);
+                                cout<<endl<<endl<<endl<<PL("Walisz w drzwi jak debil")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 2);
+                                cout<<endl<<PL("Narrator: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Kurwa, przestañ debilu chcesz zniszczyæ drzwi?")<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<"Co robisz?"<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wracasz przed drzwi do mieszkania Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Walisz w drzwi jak debil dalej.")<<endl;
+                                wyborgorzky10=getch();
+                                switch(wyborgorzky10)
+                                {
+                                case '1'://wybór 4.2.1
+                                    {
+                                        powrotdrzwi();
+                                        goto przeddrzwi;
+                                        break;
+                                    }
+                                case '2'://wybór 4.2.2
+                                    {
+                                        int wyborgorzky11;
+                                        system("cls");
+                                cout.width(32);
+                                cout<<"Mijesce: ";
+                                SetConsoleTextAttribute(kolor, 10);
+                                cout<<"Klatka schodowa w bloku Ali";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout.width(32);
+                                cout<<endl<<"Godzina: ";
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout<<PL("oko³o 17");
+                                SetConsoleTextAttribute(kolor, 4);
+                                cout.width(50);
+                                cout<<endl<<endl<<endl<<PL("Walisz w drzwi jak debil dalej")<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 2);
+                                cout<<endl<<PL("Narrator: ");
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Jeszcze raz dotkniesz kurwa tych drzwi to sam ciê wyœlê");
+                                cout<<endl<<PL("          pod mieszkanie Ali.")<<endl<<endl;
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<"--------------------------------------------------------------------------------";
+                                SetConsoleTextAttribute(kolor, 11);
+                                cout<<endl<<"Co robisz?"<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"1. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Wracasz przed drzwi do mieszkania Ali.")<<endl;
+                                SetConsoleTextAttribute(kolor, 12);
+                                cout<<"2. ";
+                                SetConsoleTextAttribute(kolor, 8);
+                                cout<<PL("Walisz w drzwi jak debil dalej.")<<endl;
+                                wyborgorzky11=getch();
+                                switch(wyborgorzky11)
+                                {
+                                case '1'://wybór 4.2.2.1
+                                {
+                                    powrotdrzwi();
+                                    goto przeddrzwi;
+                                    break;
+                                }
+                                case '2'://wybór 4.2.2.2
+                                    {
+                                        powrotdrzwi();
+                                        goto przeddrzwi;
+                                        break;
+                                    }
+                                }
+                                    }
+                                }
+                                    }
+                                }
                                           }
 
                                    }
